@@ -33,6 +33,14 @@ ai () {
   # Grab user input
   user_message="$*"
 
+  # Function to save content to a file
+  save_content() {
+    echo "$user_message" >> content.txt
+  }
+
+  # Grab user files
+  file_list=$(ls | tr '\n' ' ')
+
   # Check if user_message is empty or contains only whitespace
   if [ -z "$user_message" ]; then
     echo "Error: Input message is empty."
@@ -41,7 +49,7 @@ ai () {
   
   # Example: Remove potentially harmful characters using sed
   user_message=$(echo "$user_message" | sed 's/[^a-zA-Z0-9\s]//g')
-
+  
 
   # Form a request 
   request=$(curl --silent https://api.openai.com/v1/chat/completions \
@@ -49,7 +57,7 @@ ai () {
     -H "Authorization: Bearer $user_token" \
     -d '{
    "model": "gpt-3.5-turbo",
-   "messages": [{"role": "user", "content": "You are an expert at using shell commands. Only provide a single executable line of shell code as output. Never output any text before or after the shell code, as the output will be directly executed in a shell. You are allowed to chain commands like ls \"|\" grep .txt. Create a command for: '"${user_message}"'"}],
+   "messages": [ {"role": "system", "content": "You are an expert at using shell commands. Only provide a single executable line of shell code as output. Never output any text before or after the shell code, as the output will be directly executed in a shell. You are allowed to chain commands like ls \"|\" grep .txt"}, {"role": "user", "content": " Here is a list of files in current directory if it is helpful'"${file_list}"'. Create a command for: '"${user_message}"'"}],
    "temperature": 0.7
     }')
 
