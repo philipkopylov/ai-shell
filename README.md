@@ -1,6 +1,6 @@
 # ai-shell
 
-![ai-shell](https://github.com/philipkopylov/ai-shell/blob/main/assets/ai-shell.mp4)
+![ai-shell](https://github.com/philipkopylov/ai-shell/blob/main/assets/ai-shell.gif)
 
 
 **ai-shell** Enhance Your Shell Scripting with Chat-GPT Assistance
