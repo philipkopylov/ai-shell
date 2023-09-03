@@ -1,5 +1,8 @@
 # ai-shell
 
+![ai-shell](https://github.com/philipkopylov/ai-shell/blob/main/assets/Screen%20Recording%202023-09-03%20at%209.11.38%20PM.mov)
+
+
 **ai-shell** Enhance Your Shell Scripting with Chat-GPT Assistance
 
 Welcome to ai-shell, a unique implementation of shell scripting that leverages the power of Chat-GPT to assist you in your daily tasks. With ai-shell, you can streamline your command-line workflow without the need for Python or JavaScript. It's the perfect tool for those who want to combine the simplicity of shell scripting with the intelligence of AI.
