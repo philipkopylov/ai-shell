@@ -23,5 +23,3 @@ Enhanced Productivity: Simplify complex tasks, automate processes, and get answe
 3. Use! 
    ```sh
    ai find all files in current folder ending with ipynb and write their names to myipybs.txt
-
-
