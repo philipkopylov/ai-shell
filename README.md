@@ -1,6 +1,6 @@
 # ai-shell
 
-![ai-shell](https://github.com/philipkopylov/ai-shell/blob/main/assets/Screen%20Recording%202023-09-03%20at%209.11.38%20PM.mov)
+![ai-shell](https://github.com/philipkopylov/ai-shell/blob/main/assets/ai-shell.mp4)
 
 
 **ai-shell** Enhance Your Shell Scripting with Chat-GPT Assistance
