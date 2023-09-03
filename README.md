@@ -1,18 +1,19 @@
 # ai-shell
-AI-shell is a implementation of Chat-GPT assisted shell scripting written in shell, no python or js required
 
+**ai-shell** is an implementation of Chat-GPT assisted shell scripting written entirely in shell, without the need for Python or JavaScript.
 
-Usage: 
+## Usage
 
-export OPENAI_API_KEY=<your key> 
+1. Export your OpenAI API key as an environment variable:
+   ```sh
+   export OPENAI_API_KEY=<your key>
+   
+2. Activate
+   ```sh
+   source yourpath/ai-shell/ai-shell.sh
 
-source yourpath/ai-shell/ai-shell.sh
+3. Use! 
+   ```sh
+   ai find all files in current folder ending with ipynb and write their names to myipybs.txt
 
-Call with: 
-
-ai 
-
-For example: 
-
-ai find all files in current folder ending with ipynb and write their names to myipybs.txt 
 
