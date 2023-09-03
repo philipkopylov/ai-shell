@@ -14,4 +14,5 @@ ai
 
 For example: 
 
-ai 
+ai find all files in current folder ending with ipynb and write their names to myipybs.txt 
+
