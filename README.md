@@ -14,15 +14,23 @@ OpenAI Integration: Harness the capabilities of OpenAI's Chat-GPT to receive int
 Enhanced Productivity: Simplify complex tasks, automate processes, and get answers to your questions, all within your shell.
 
 ## Usage
+Requires Brew to install jq, check https://brew.sh/
 
-1. Export your OpenAI API key as an environment variable:
+## Usage
+
+1. Export your OpenAI API key as an environment variable, get your API key here https://platform.openai.com/
    ```sh
    export OPENAI_API_KEY=<your key>
    
 2. Activate
    ```sh
-   source yourpath/ai-shell/ai-shell.sh
+   cd yourpath/ai-shell
+   source ai-shell.sh
 
 3. Use! 
    ```sh
    ai find all files in current folder ending with ipynb and write their names to myipybs.txt
+
+
+https://bigailist.com/ More useful AI apps and links!
+![big-ai-list]([https://github.com/philipkopylov/ai-shell/blob/main/assets/ai-shell.gif](https://pbs.twimg.com/media/Fv9G_WQX0AkES6o?format=jpg&name=4096x4096)https://pbs.twimg.com/media/Fv9G_WQX0AkES6o?format=jpg&name=4096x4096)
