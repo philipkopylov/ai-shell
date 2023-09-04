@@ -32,5 +32,5 @@ Requires Brew to install jq, check https://brew.sh/
    ai find all files in current folder ending with ipynb and write their names to myipybs.txt
 
 
-https://bigailist.com/ More useful AI apps and links!
-![big-ai-list](https://pbs.twimg.com/media/Fv9G_WQX0AkES6o?format=jpg&name=4096x4096)
+Check out more useful AI apps and tools on https://bigailist.com/ 
+![[big-ai-list](https://bigailist.com/)](https://pbs.twimg.com/media/Fv9G_WQX0AkES6o?format=jpg&name=4096x4096)
