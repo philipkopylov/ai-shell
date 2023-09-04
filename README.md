@@ -10,7 +10,9 @@ Welcome to ai-shell, a unique implementation of shell scripting that leverages t
 🚀 Key Features:
 
 Pure Shell Implementation: No additional dependencies or languages required. Just plain shell scripting.
+
 OpenAI Integration: Harness the capabilities of OpenAI's Chat-GPT to receive intelligent suggestions and guidance.
+
 Enhanced Productivity: Simplify complex tasks, automate processes, and get answers to your questions, all within your shell.
 
 ## Usage
