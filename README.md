@@ -33,4 +33,4 @@ Requires Brew to install jq, check https://brew.sh/
 
 
 https://bigailist.com/ More useful AI apps and links!
-![big-ai-list]([https://github.com/philipkopylov/ai-shell/blob/main/assets/ai-shell.gif](https://pbs.twimg.com/media/Fv9G_WQX0AkES6o?format=jpg&name=4096x4096)https://pbs.twimg.com/media/Fv9G_WQX0AkES6o?format=jpg&name=4096x4096)
+![big-ai-list](https://pbs.twimg.com/media/Fv9G_WQX0AkES6o?format=jpg&name=4096x4096)
